@@ -14,8 +14,11 @@ public abstract class Animal {
     }
 
     public abstract void swim(int distance);
+    
     public abstract void run(int distance);
+    
     public abstract void voice();
+    
     public abstract void info();
 
 
