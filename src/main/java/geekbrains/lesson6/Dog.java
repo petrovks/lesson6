@@ -18,7 +18,6 @@ public class Dog extends Animal {
         count++;
     }
 
-
     @Override
     public void run(int distance) {
         if(distance < maxRunDistance) {

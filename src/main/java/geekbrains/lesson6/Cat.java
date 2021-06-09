@@ -16,6 +16,7 @@ public class Cat extends Animal{
         super(name, color);
         count++;
     }
+
     @Override
     public void run(int distance) {
         if(distance < this.maxRunDistance) {
@@ -25,11 +26,13 @@ public class Cat extends Animal{
             System.out.println(this.color + "кот/кошка по имени " + this.name + " не смог пробежать " + distance + " метра/метров");
         }
     }
+
     @Override
     public void swim(int distance){
         System.out.println("Коты не умеют плавать!:(");
     }
 
+ 
     @Override
     public  void voice(){
         System.out.println("Кот мяукает!!!");

@@ -9,7 +9,6 @@ public class Main {
         Dog dog2 = new Dog("Sharik", "Grey");
             cat1.run(100);
             cat2.swim(10);
-
             dog1.run(456);
             dog2.run(700);
 
